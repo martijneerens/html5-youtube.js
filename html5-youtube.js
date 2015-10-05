@@ -207,6 +207,12 @@
 			height = 390;
 			width = 640;
 		}
+		if(options.width){
+			width = options.width;
+		}
+		if(options.height){
+			width = options.height;
+		}
 
 		return {
 			el: el,
