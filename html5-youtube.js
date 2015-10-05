@@ -211,7 +211,7 @@
 			width = options.width;
 		}
 		if(options.height){
-			width = options.height;
+			height = options.height;
 		}
 
 		return {
